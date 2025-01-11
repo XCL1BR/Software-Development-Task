@@ -1,4 +1,4 @@
-# Soware-Development-Task
+# Software-Development-Task
 Project: IPO Web Applica on &amp; REST API Development 
 
 Creating a GitHub repository that allows collaboration from multiple contributors is a common practice for team projects. Here’s a step-by-step guide:
