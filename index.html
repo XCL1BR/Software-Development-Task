@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluestock - IPO Information Platform</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logo.png" alt="Bluestock" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">IPO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">COMMUNITY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">UPDATES</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-outline-primary">Sign in</button>
+                    <button class="btn btn-primary">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container py-4">
+        <!-- IPO Header -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="h3">IPO</h1>
+            <button class="btn btn-link">View All</button>
+        </div>
+
+        <!-- Upcoming IPOs -->
+        <section class="mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="h5 mb-0">Upcoming</h2>
+                <button class="btn btn-link">View All</button>
+            </div>
+            <div class="row g-4" id="upcomingIpos">
+                <!-- IPO cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Apply for IPO Section -->
+        <section class="text-center py-5 my-5 bg-light rounded-4">
+            <div class="col-lg-6 mx-auto">
+                <img src="./assets/logo.png" alt="Bluestock" class="mb-4" height="40">
+                <h2 class="mb-4">Applying for this IPO?</h2>
+                <p class="mb-4">The way you compare & invest in only the best IPO, let us help you get started by comparing and selecting the best Demat account. Open your Demat account now to apply for your favourite IPO.</p>
+                <button class="btn btn-primary btn-lg">Open a Demat Account</button>
+            </div>
+        </section>
+
+        <!-- Ongoing IPOs -->
+        <section class="mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="h5 mb-0">Ongoing</h2>
+                <button class="btn btn-link">View All</button>
+            </div>
+            <div class="row g-4" id="ongoingIpos">
+                <!-- IPO cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="mb-5">
+            <h2 class="h5 mb-4">Frequently Asked Questions?</h2>
+            <div class="accordion" id="faqAccordion">
+                <!-- FAQ items will be inserted here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+

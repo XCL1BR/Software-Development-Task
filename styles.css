@@ -1,0 +1,67 @@
+:root {
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+.ipo-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.ipo-card .company-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.ipo-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.ipo-info-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.ipo-info-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.ipo-info-value {
+  font-weight: 500;
+}
+
+.document-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.document-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  background: white;
+}
+
+.document-button:hover {
+  background: #f9fafb;
+}
+
