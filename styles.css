@@ -334,9 +334,24 @@ button {
   button.drhp:hover{
     background-color: #c44126;
   }
-  
 
-  /* #first-price{
-    width: 47px;
-    height: 27px;
-  } */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.company-container {
+    width: calc(33.33% - 20px); /* Ensures 3 containers per row */
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
