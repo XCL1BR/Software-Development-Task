@@ -79,3 +79,4 @@ To work locally, clone the repository:
 
 By following these steps, you can create a repository that encourages and supports contributions from others effectively!
 ![image alt](https://github.com/XCL1BR/Software-Development-Task/blob/f7acc26072c58c69ed30f088f8e533204b003de0/assets/newb.png)
+![image alt](https://bluestock.in/hr/work-policy.html)
